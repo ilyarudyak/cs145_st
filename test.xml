@@ -1,0 +1,13 @@
+<!DOCTYPE info [
+    <!ELEMENT info (addr,phone*)>
+    <!ELEMENT addr (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+]>
+
+
+<info>
+    <addr>101 Maple St.</addr>
+    <phone>555-1212</phone>
+    <phone>555-4567</phone>
+</info>
+
